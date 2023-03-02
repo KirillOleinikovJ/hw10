@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class SecondTask {
-    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\src\\main\\java\\file.txt";
+    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\src\\main\\java\\file1.txt";
 
     public static void main(String[] args) throws IOException {
         List<User> users = new ArrayList<>();
