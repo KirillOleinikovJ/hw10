@@ -4,12 +4,11 @@ import java.io.*;
 import java.util.*;
 
 public class SecondTask {
-    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\src\\main\\java\\file1.txt";
+    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\target\\file1.txt";
 
     public static void main(String[] args) throws IOException {
         List<User> users = new ArrayList<>();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String toJson = gson.toJson(users);
         InputStream fis = new FileInputStream(ABSOLUTE_PATH);
         Scanner scanner = new Scanner(fis);
         scanner.nextLine();

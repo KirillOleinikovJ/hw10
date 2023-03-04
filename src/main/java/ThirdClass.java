@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class ThirdClass {
-    private static final String ABSOLUTE_PATH = "C:\\java\\hw-10\\src\\words.txt";
+    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\target\\words.txt";
 
     public static void main(String[] args) {
         HashMap<String, Integer> wordCount = new HashMap<>();

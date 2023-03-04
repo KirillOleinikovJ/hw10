@@ -23,7 +23,7 @@ public class FirstTask {
         }
     }
 
-    private static final String ABSOLUTE_PATH = "C:\\java\\hw-10\\src\\file.txt";
+    private static final String ABSOLUTE_PATH = "C:\\java\\hw10\\target\\file.txt";
 
     public static void main(String[] args) {
         FirstTask ft = new FirstTask();
