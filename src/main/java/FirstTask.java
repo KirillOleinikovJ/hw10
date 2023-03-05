@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class FirstTask {
     public void printNumber(File file) {
-        Pattern pattern = Pattern.compile("(\\(\\d{3}\\) |\\d{3}-)\\d{3}-\\d{4}");
+        Pattern pattern = Pattern.compile("^(\\(\\d{3}\\)\\s*|\\d{3}-)\\d{3}-\\d{4}$");
         Matcher matcher;
         if (!file.exists()) {
             System.out.println("not exist");
